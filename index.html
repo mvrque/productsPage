@@ -16,7 +16,7 @@
         <nav class="nav">
             <h2>Product List</h2>
             <ul class="add-and-delete">
-                <li><button>ADD</button></li>
+                <li><button id="">ADD</button></li>
                 <li><button id="delete-product-btn">MASS DELETE</button></li>
             </ul>
         </nav>
@@ -29,11 +29,12 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault"></label>
                 </div>
-                <div class="description">
-                    <span>JVC200123</span>
-                    <h4>Acme DISC</h4>
-                    <span>1.00$</span>
-                    <span>Size: 700MB</span>
+                <div class="description" id="productDescription">
+                    <span id="productId">JVC200123</span>
+                    <h4 id="productName">Acme DISC</h4>
+                    <span id="productPrice">1.00$</span>
+                    <span id="productInfo">Size: 700MB</span>
+                    <button class="add" id="addToShoppingbag">ADD</button>
                 </div>
             </div>
             <div class="product">
@@ -80,11 +81,12 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault"></label>
                 </div>
-                <div class="description">
-                    <span>GGWP0007</span>
-                    <h4>War and Peace</h4>
-                    <span>20.00$</span>
-                    <span>Weight: 2KG</span>
+                <div class="description" id="productDescription">
+                    <span id="productId">GGWP0007</span>
+                    <h4 id="productName">War and Peace</h4>
+                    <span id="productPrice">20.00$</span>
+                    <span id="productInfo">Weight: 2KG</span>
+                    <button class="add" id="addToShoppingbag">ADD</button>
                 </div>
             </div>
             <div class="product">
@@ -92,11 +94,12 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault"></label>
                 </div>
-                <div class="description">
-                    <span>GGWP0007</span>
-                    <h4>War and Peace</h4>
-                    <span>20.00$</span>
-                    <span>Weight: 2KG</span>
+                <div class="description" id="productDescription">
+                    <span id="productId">JVC200123</span>
+                    <h4 id="productName">Acme DISC</h4>
+                    <span id="productPrice">1.00$</span>
+                    <span id="productInfo">Size: 700MB</span>
+                    <button class="add" id="addToShoppingbag">ADD</button>
                 </div>
             </div>
             <div class="product">
@@ -177,6 +180,6 @@
         </div>
 
     </main>
-    
+<script src="script.js"></script>    
 </body>
 </html>
